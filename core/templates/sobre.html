@@ -1,0 +1,46 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+
+<section class="py-5">
+    <div class="container my-4">
+        <div class="bg-light rounded-3 py-5 px-4 px-md-5 mb-3">
+            <div class="text-center mb-5">
+                <div class="feature bg-primary bg-gradient text-white rounded-5 mb-5">
+                    <i class="bi bi-info-circle bi-sm"></i>
+                </div>
+                <h1 class="fw-bolder">Sobre Nós</h1>
+            </div>
+            <div class="container">
+                <p class="lead fw-normal text-muted mb-5">
+                    Somos uma equipe apaixonada por tecnologia e inovação, e criamos uma página interativa com um teste comportamental DISC. Este teste vai além de oferecer uma simples análise, sendo uma ferramenta valiosa para identificar traços comportamentais e se destacar em processos seletivos de empregos e vagas de estágio.
+                </p>
+            
+                <p class="lead fw-normal text-muted mb-5">
+                    Junte-se a nós nessa jornada de descoberta! Através desse teste, você terá a chance não só de explorar os aspectos do seu comportamento, mas também de compreender como a tecnologia pode ser aliada no seu crescimento profissional. Venha fazer parte desse universo de inovação, onde a sua jornada pessoal se encontra com as possibilidades do futuro.
+                </p>
+            </div>
+            <div class="container">
+                <p class="lead fw-bolder text-center">
+                    Colaboradores
+                </p>
+            </div>
+            <div class="row justify-content-center align-items-center my-5">
+                <div class="col-md-4 text-center">
+                    <img class="rounded-circle" src="{% static 'images/dani.png' %}" alt="Dani" width="200" height="200" />
+                    <p class="lead fw-normal text-center mt-3">Danielle de Paula</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <img class="rounded-circle" src="{% static 'images/caio.png' %}" alt="Caio" width="200" height="200" />
+                    <p class="lead fw-normal text-center mt-3">Caio de Paula</p>
+                </div>
+            </div>
+          
+        </div>
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+{% endblock %}
+5
